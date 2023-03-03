@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: POD A
+        image: my-image
+        resources:
+          limits:
+            memory: "400Mi"
+      - name: POD B
+        image: my-image
+        resources:
+          limits:
+            memory: "200Mi"
+      - name: POD C
+        image: my-image
+        resources:
+          limits:
+            memory: "400Mi"
