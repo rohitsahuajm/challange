@@ -1,4 +1,4 @@
-This code creates a Pod with the name my-pod and sets the replicas value to 3. 
+This kube-challage.yml creates a Pod with the name my-pod and sets the replicas value to 3. 
 It then defines a template for the Pod that includes three containers, each with a different name (POD A, POD B, and POD C) 
 and memory limit (400Mi, 200Mi, and 400Mi, respectively).
 
