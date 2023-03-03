@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: sample-configmap
+  name: my-csv
 data:
-  sample-configmap.csv: |
+  data.csv: |
     Name, Age
     John, 30
     Sarah, 25
